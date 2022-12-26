@@ -36,7 +36,7 @@ public class RestartModule extends ReactContextBaseJavaModule {
     }
 
     private void loadBundle() {
-        clearLifecycleEventListener();
+//         clearLifecycleEventListener();
         try {
             final ReactInstanceManager instanceManager = resolveInstanceManager();
             if (instanceManager == null) {
